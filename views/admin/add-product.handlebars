@@ -1,0 +1,44 @@
+
+	<h2>{{heading}}</h2>	
+    <div classs="row">
+	    <div class="col-md-6">
+		    <form role="form" action="/admin/add-product/" method="post">
+
+                  <div class="form-group">			
+					<select class="form-control" id="addp_groupname">	    
+							<option style="font-weight: bold" value = "0">Please select a product group</option>
+							{{#each groups}}
+							<option value = "{{groupName}}">{{groupName}}</option>
+							{{/each}}
+					</select>
+				  </div>
+
+				  
+				  <div class="form-group">
+					<label for="pname">Product Name:</label>
+					<input type="text" class="form-control" id="pname">
+				  </div>
+				  
+				  <div class="form-group">
+					<label for="pprice">Product Price:</label>
+					<input type="text" class="form-control" id="pprice">
+				  </div>
+				  
+				   <div class="form-group">
+					   <label for="pimagefile">Product Image:</label>
+					   <input type="file" class="form-control" id="pimage">
+				    </div>
+					
+					<div class="form-group">
+						<label for="pdesc">Product Description</label>
+						<textarea class="form-control" rows="5" id="pdesc"></textarea>
+					</div>
+
+	        </form>
+			  <button type="button" class="btn btn-success" id="addProduct">Add Product</button>
+       
+	    </div>
+	    <div id="ack"></div>
+	</div>
+
+

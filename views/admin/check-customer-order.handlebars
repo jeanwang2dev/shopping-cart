@@ -1,0 +1,22 @@
+<h2>View Customers </h2>
+<p> To retrieve customer records select the customer.</p>
+<div class="row">
+	<div class="col-md-5">	
+		<form role="form">
+             
+				  <div class="form-group">	
+				      <select class="form-control" id="c-customer">	    
+						<option style="font-weight: bold" value = "0">Select a Customer</option>
+						{{#each customers}}
+						<option value = "{{_id}}">{{f_name}} {{l_name}}</option>
+						{{/each}}
+				     </select>	
+	
+				  </div>
+				  
+		</form> 
+    </div>
+    <div id="table"></div>
+	<div id="descWindow"></div>
+	<div id="ack"></div>
+</div>

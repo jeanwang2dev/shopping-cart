@@ -1,0 +1,221 @@
+/* GENERAL */
+body{
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+nav ul, nav li {margin: 0; padding: 0;}
+nav, main {display: block}
+
+
+/* IDs */
+#password {width: 200px;}
+#username {width: 200px;}
+
+#p-status {
+	font-weight: bold;
+	color: red; 
+}
+
+#checkout input{
+	float:right;
+	margin: 1%;
+	vertical-align: middle;
+}
+
+#checkout label{
+	margin-top:1px;
+	vertical-align: bottom;
+}
+
+#ack {
+	min-height: 100px; min-width: 250px; max-width: 350px; 
+	background: white; 
+	border-radius: 5px; 
+	border: 1px solid green; 
+	padding: 0; 
+	text-align: left; 
+	color: #000; 
+	position: fixed; top: 27%; left: 50%; 
+	margin-left: -75px; 
+	display: none;
+	font-size: 1.2em;
+}
+#ack #ackheader{
+	margin-top: 0px;
+	height: 25px;
+	color: white; 
+	background: green;
+}
+#ack #ackheader h4{
+	margin-top: 0px;
+	margin-left: 10px;
+	padding-top: 5px;
+	
+}
+#ack p{
+	margin-top: 5px;
+	margin-left:10px;
+}
+#ack #buttons{
+	float:left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#descWindow{
+	min-height: 200px; min-width: 600px; max-width:900px;
+	background: white; 
+	border-radius: 5px; 
+	border: 1px solid green; 
+	padding: 0; 
+	text-align: left; 
+	color: #000; 
+	position: fixed; top: 15%; right: 15%; 
+	margin-left: -75px; 
+	display: none;
+}
+
+#descWindow #descHeader{
+	margin-top: 0px;
+	height: 30px;
+	color: white; 
+	background: #3E8ACC; /* blue */
+}
+
+#descWindow #descHeader h4{
+	margin-top: 0px;
+	margin-left: 10px;
+	padding-top: 5px;
+	
+}
+#descWindow img{
+   float:left;
+   margin: 8px 8px 5px 10px;
+}
+#descWindow #info{
+	float:right;
+	margin-top:20px;
+	margin-left:20px;
+	width:500px;
+
+}
+#descWindow #info #price{
+	color:green;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-weight: bold;
+	font-size: 150%;
+}
+#descWindow #info #desc{
+	font-size:150%;
+}
+#descWindow #buttons{
+	clear: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+#descWindow-user{
+	min-height: 200px; min-width: 600px; max-width:1000;
+	background: white; 
+	border-radius: 5px; 
+	border: 1px solid green; 
+	padding: 0; 
+	text-align: left; 
+	color: #000; 
+	position: fixed; top: 15%; right: 15%; 
+	margin-left: -75px; 
+	display: none;
+}
+
+#descWindow-user #descHeader{
+	margin-top: 0px;
+	height: 30px;
+	color: white; 
+	background: #3E8ACC; /* blue */
+}
+
+#descWindow-user #descHeader h4{
+	margin-top: 0px;
+	margin-left: 10px;
+	padding-top: 5px;
+	
+}
+#descWindow-user img{
+   float:left;
+   margin: 8px 8px 5px 10px;
+}
+#descWindow-user #info{
+	float:right;
+	margin-top:20px;
+	margin-left:20px;
+	width:500px;
+
+}
+#descWindow-user #price{
+	color:green;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-weight: bold;
+	font-size: 150%;
+}
+#descWindow-user #info #desc{
+	font-size:150%;
+}
+#descWindow-user #buttons{
+	clear: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+
+/* CLASSES */
+.btn {margin: 10px 0 0 0;}
+.error { color: red; font-size: 120%; }
+.myalert { color: red;}
+
+
+/* HEADER */
+.header { padding: 0; margin-bottom: 0; }
+
+.header h1{
+	font-size: 320%;
+	color: #428BCA;
+}
+.content { margin-top: 0; padding: 1px; }
+.content h2{ margin-top:0; font: normal normal bold 2em Arial, Helvetica, sans-serif; }
+
+/* TITLE COLOR FOR POPOVERS */
+.popover-title { 
+      background-color: red;
+      font-weight: bold;
+      color: white;
+}  
+.popover-content {
+	font: normal normal bold 1em Arial, Helvetica, sans-serif;
+}
+
+/* BOOSTRAP MODAL */
+.modal-title { background-color: green; color: white;}
+/* NAV */
+nav ul li a {font-size: 1.2em;  line-height: 40px;}
+
+
+/* FOOTER */
+.footer { border: solid #fff; clear:left; text-align: center }
+.footer h6{ color:#999999; font: normal normal bold 1em Arial, Helvetica, sans-serif;
+/*font-weight: bold; color: #999999; font-size: 110%; */
+}
+
+/* TABLE */
+.table { 
+	margin-top: 10px; 
+}
+.table tbody td{
+	font-size: 16px;
+}
+
+/* MAIN */
+main {padding: 2px}

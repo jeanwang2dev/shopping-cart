@@ -1,0 +1,26 @@
+<main>
+<h2>Login</h2>
+  <div class="row">
+    <div class="col-md-11">
+	 <p>Before you can check out you must login</p>
+	 <p>Enter your login information here. If you do not have any login information then <a href="/user/register/"> please proceed to our registration page</a></p>
+	 <div class="error">{{error}}</div>
+	</div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+		<form class="form-group" action="/user/login/" method="post">
+			<div class="form-group">
+			    <label for="email">Email</label>
+			    <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+			<div>
+			<div class="form-group">
+				<label for="password">Password</label>
+				<input type="password" class="form-control" id="password" name="password" placeholder="Password">
+			</div>
+			<button type="button" class="but btn-success" id="cust-login">Login and Proceed to Checkout</button>
+		</form>
+    </div>
+  </div>
+  <div id="ack"></div>
+</main>

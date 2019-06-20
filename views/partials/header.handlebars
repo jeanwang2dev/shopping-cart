@@ -1,0 +1,11 @@
+<header>
+	{{#if user}}
+		<div class="col-md-11"><h1> SHOPPING CART - {{heading}}</h1></div>
+		<div class="col-md-1"><h3> 0 <span class="glyphicon glyphicon-shopping-cart"></span> </h3></div>
+	{{else if buyer}}
+	    <div class="col-md-11"><h1> SHOPPING CART - {{heading}}</h1></div>
+		<div class="col-md-1"><h3> 0 <span class="glyphicon glyphicon-shopping-cart"></span> </h3></div>
+	{{else if admin_head}}
+        <div class="col-md-11"><h1> SHOPPING CART - {{heading}}</h1></div>
+    {{/if}}
+</header>

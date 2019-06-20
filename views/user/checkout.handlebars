@@ -1,0 +1,65 @@
+<main>
+<h2>{{heading}}</h2>
+<p> This is the checkout page. If you want to make changes to your cart go back to the <a href="/user/viewcart/">view cart</a> page and edit your cart there.<p>
+	<div class="container">
+		  <div class="row">
+		        <div class="col-md-3">
+		          
+			          <div class="row">
+			            <div class="col-md-10" id="name"><h4>name</h4></div>
+			          </div>
+			          <div class="row">
+			           <div class="col-md-10" id="address"><h4>address</h4></div>	
+			          </div>
+			          <div class="row">
+			            <div class="col-md-10" id="location"><h4>location</h4></div>
+			          </div>   
+		          
+		       </div>
+		    
+		      	<div class="col-md-1">
+		        	<div class="row"></div>
+		            <div class="row"></div>	           
+		            <div class="row"></div>          
+		        </div>
+
+		      	<div class="col-md-7">
+		        
+		        	 <form class="form-group" action="/user/checkout/" method="post" id="checkout">
+		              
+			               <div class="row form-inline">
+			                        
+			                        <div class="col-md-9">
+			                            <label for="card">Credit Card Number:<span data-toggle="popover"></span></label>
+			                            <input type="text" class="form-control" id="card" name="card" placeholder="1234-5678-1234-5678" >
+			                        </div>                         
+			                            
+			               </div>
+			               <div class="row form-inline">
+			                        
+			                        <div class="col-md-9">
+			                            <label for="firstname">CCV Number:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span data-toggle="popover"></span></label>
+			                            <input type="text" class="form-control" id="ccv" name="ccv" placeholder="123">
+			                        </div>                         
+			                            
+			               </div>
+			               <div class="row form-inline">
+			                        
+			                        <div class="col-md-9">
+			                            <label for="firstname">Expiration Date :<span data-toggle="popover"></span></label>
+			                            <input type="text" class="form-control" id="expdate" name="expdate" placeholder="MM/YY">
+			                        </div>                         
+			                            
+			               </div>
+		                
+		             </form>
+		          </div>
+		     </div>
+	</div>
+
+
+    <button type="button" class="btn btn-success" id="cp-checkout">Complete Checkout</button>
+		
+	<div id='table'></div>
+	<div id="ack"></div>
+</main>

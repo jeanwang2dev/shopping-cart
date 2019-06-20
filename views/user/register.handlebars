@@ -1,0 +1,65 @@
+		  
+			 
+			 
+				<h1>Registration</h1>
+				<p>Before you can check out you must register </p>
+				<p>All fileds are required. If you get an <span class="glyphicon glyphicon-exclamation-sign myalert"></span> icon next to a field after clicking the "Register and proceed to checkout" button, hover over the icon to see what the error is  </p>
+				
+				 
+				<form class="form-group" action="/user/register/" method="post">
+				    <div class="row form-group">
+                        
+                        <div class="col-md-6">
+                            <label for="firstname">First Name:<span data-toggle="popover"></span></label>
+                            <input type="text" class="form-control" id="firstname" name="firstname">
+                        </div>
+                                
+                            <div class="col-md-6"><label for="lastname">Last Name:<span data-toggle="popover"></span></label>
+                            <input type="text" class="form-control" id="lastname" name="lastname" >
+                        </div>
+            </div>
+			      <div class="row form-group">
+                      <div class="col-md-5">
+                        <label for="address">Address:<span data-toggle="popover"></span></label>
+                        <input type="text" class="form-control" id="address" name="address">
+                      </div>
+                      <div class="col-md-3">
+                        <label for="city">City:<span data-toggle="popover"></span></label>
+                        <input type="text" class="form-control" id="city" name="city">
+                      </div>
+                      <div class="col-md-2">
+                        <label for="state">State:<span data-toggle="popover"></span></label>
+                        <input type="text" class="form-control" id="state" name="state">
+                      </div>
+                      <div class="col-md-2">
+                        <label for="zipcode">Zip Code:<span data-toggle="popover"></span></label>
+                        <input type="text" class="form-control" id="zipcode" name="zipcode" >
+                      </div>
+            </div>
+				    <div class="row form-group">
+                      <div class="col-md-3">
+                        <label for="phone">Phone:<span data-toggle="popover"></span></label>
+                        <input type="text" class="form-control" id="phone" name="phone" >
+                      </div>
+                      <div class="col-md-3">
+                        <label for="email">Email:<span data-toggle="popover"></span></label>
+                        <input type="text" class="form-control" id="email" name="email" >
+                      </div>
+                      <div class="col-md-3">
+                        <label for="password">Password:<span data-toggle="popover"></span></label>
+                        <input type="password" class="form-control" id="password" name="password">
+                      </div>
+                      <div class="col-md-3">
+                        <label for="con-password">Confirm Password:<span data-toggle="popover"></span></label>
+                        <input type="password" class="form-control" id="con-password" name="con-password">
+                      </div>
+            </div> 
+            <br/>
+					 
+				  
+				 <button type="button" id="register" class="btn btn-success"> Register and proceed to checkout</button>		
+				 
+				</form>
+  <div id="ack"></div>
+
+

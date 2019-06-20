@@ -1,0 +1,25 @@
+<nav>
+	{{#if user}}
+		<ul class="nav navbar-nav">
+			<li><a href="/user/">Home</a></li>
+			<li><a href="/user/viewcart">View Cart</a></li>
+			<li><a href="/user/login">Checkout</a></li>
+		</ul>
+	{{else if buyer}}
+	    <ul class="nav navbar-nav">
+	    	<li><a href="/user/">Home</a></li>
+	    	<li><a href="/user/viewcart">View Cart</a></li>
+	    	<li><a href="/user/checkout">Checkout</a></li>
+	    	<li><a href="/user/logout">Logout</a></li>
+	    </ul>
+	{{else if admin}}
+		<ul class="nav navbar-nav">
+			<li><a href="/admin/">Home</a></li>
+			<li><a href="/admin/add-product">Add Product</a></li>
+			<li><a href="/admin/update-product">Update Product(s)</a></li>
+			<li><a href="/admin/add-product-group">Add Product Group</a></li>
+			<li><a href="/admin/check-customer-order">Check Customer Orders</a></li>
+			<li><a href="/admin/logout">Logout</a></li>
+		</ul>
+	{{/if}}
+</nav>

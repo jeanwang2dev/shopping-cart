@@ -1,0 +1,19 @@
+<main>    
+    <h2>{{heading}}</h2>
+	<p> Select a product group to update the product.</p>		
+    <form role="form" class="form-group" action="/admin/update-product2/" method="post">	
+        <div class="row">
+            <div class="col-md-6">
+				
+				  	{{> select-group this}}
+
+                   <div id="form"></div> 
+			</div>
+				  				
+            </div>
+        </div>
+        <div id="table"></div>
+        
+    </form> 
+        <div id="ack"></div>	
+</main>
