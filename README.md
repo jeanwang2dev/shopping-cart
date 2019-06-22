@@ -8,7 +8,7 @@ You can Re-Create the Project on Digital Ocean
 
 ## Getting Started
 
-#### Setting up the environment your server
+#### Setting up the environment on your server
 
  1. Create a droplet with Ubuntu operating system under your Digital Ocean account
  2. Root login after receiving the email from Digital Ocean with `ssh root@your ip address`
